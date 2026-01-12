@@ -45,7 +45,7 @@ Scripts Overview:
 4) CoordinatesPublisher:	Publishes biopsy target and entry points to ROS topics.
 5) Loader1:	Loads DICOM files, converts them into 3D voxel data, and generates 2D slice textures.
 6) TrajectoryReceiver:	Subscribes to ROS trajectories and stores joint waypoints.
-7) SimpleTrajectoryPlayer:	Plays trajectory from a JSON file, applying joint rotations and positions to the robot model. (An example is available in RobotAnimation Scene)
+7) SimpleTrajectoryPlayer:	Plays trajectory from a JSON file, applying joint rotations and positions to the robot model. (An example is available in RobotAnimation scene with a pre-recorded trajectory)
 8) UIToggle:	Toggles visibility of main and biopsy UI canvases.
 9) WASDOrbitCamera:	Provides orbiting and zooming camera controls around a target object.
     
