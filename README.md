@@ -50,12 +50,12 @@ Scripts Overview:
 9) WASDOrbitCamera:	Provides orbiting and zooming camera controls around a target object.
     
 Controls:
-Orbit Camera - WASD / Arrow Keys
-Zoom Camera	Mouse - Scroll Wheel
-Select Slice - Point	Right Click
-Reset Target - Reset Target Point Button
-Reset Entry - Reset Entry Point Button
-Toggle UI - Button linked to UIToggle
+- Orbit Camera - WASD / Arrow Keys
+- Zoom Camera	Mouse - Scroll Wheel
+- Select Slice - Point	Right Click
+- Reset Target - Reset Target Point Button
+- Reset Entry - Reset Entry Point Button
+- Toggle UI - Button linked to UIToggle
 
 Shader:
 SliceRotateFinal
