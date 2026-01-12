@@ -1,0 +1,832 @@
+{
+  "metadata": {
+    "robot_name": "surgical_biopsy_robot",
+    "entry_point": [
+      0.75,
+      0.05,
+      0.65
+    ],
+    "target_point": [
+      0.78,
+      0.03,
+      0.62
+    ],
+    "insertion_depth_mm": 46.904157598234335,
+    "procedure_phases": [
+      "approach",
+      "insertion",
+      "retraction",
+      "return"
+    ]
+  },
+  "phases": [
+    {
+      "name": "approach",
+      "description": "Move robot from home to entry point",
+      "duration_sec": 24.86453744,
+      "waypoints": [
+        {
+          "time": 0.0,
+          "joints": {
+            "base_rotation": 0.0286,
+            "first_arm_rotation": -1.2939,
+            "second_arm_rotation": 3.1415,
+            "effector_base_rotation": 0.53,
+            "effector_extension": 0.0,
+            "spherical_yaw": -0.0095,
+            "spherical_pitch": 2.1007,
+            "needle_extension": 0.0
+          }
+        },
+        {
+          "time": 1.130206247,
+          "joints": {
+            "base_rotation": 0.06303649608710618,
+            "first_arm_rotation": -1.2720417554133707,
+            "second_arm_rotation": 3.114093869297014,
+            "effector_base_rotation": 0.46451624896800314,
+            "effector_extension": 0.002260412494575381,
+            "spherical_yaw": -0.05185618203771051,
+            "spherical_pitch": 2.0221058639171483,
+            "needle_extension": 4.431392598146898e-06
+          }
+        },
+        {
+          "time": 2.260412495,
+          "joints": {
+            "base_rotation": 0.09747299217421236,
+            "first_arm_rotation": -1.2501835108267416,
+            "second_arm_rotation": 3.086687738594028,
+            "effector_base_rotation": 0.3990324979360062,
+            "effector_extension": 0.004520824989150762,
+            "spherical_yaw": -0.09421236407542101,
+            "spherical_pitch": 1.9435117278342966,
+            "needle_extension": 8.862785196293795e-06
+          }
+        },
+        {
+          "time": 3.390618742,
+          "joints": {
+            "base_rotation": 0.13190948826131854,
+            "first_arm_rotation": -1.2283252662401123,
+            "second_arm_rotation": 3.059281607891042,
+            "effector_base_rotation": 0.33354874690400926,
+            "effector_extension": 0.006781237483726142,
+            "spherical_yaw": -0.13656854611313152,
+            "spherical_pitch": 1.8649175917514451,
+            "needle_extension": 1.3294177794440693e-05
+          }
+        },
+        {
+          "time": 4.520824989,
+          "joints": {
+            "base_rotation": 0.16634598434842474,
+            "first_arm_rotation": -1.2064670216534832,
+            "second_arm_rotation": 3.0318754771880556,
+            "effector_base_rotation": 0.2680649958720124,
+            "effector_extension": 0.009041649978301524,
+            "spherical_yaw": -0.17892472815084204,
+            "spherical_pitch": 1.7863234556685934,
+            "needle_extension": 1.772557039258759e-05
+          }
+        },
+        {
+          "time": 5.651031236,
+          "joints": {
+            "base_rotation": 0.20078248043553087,
+            "first_arm_rotation": -1.1846087770668539,
+            "second_arm_rotation": 3.0044693464850694,
+            "effector_base_rotation": 0.20258124484001544,
+            "effector_extension": 0.011302062472876904,
+            "spherical_yaw": -0.22128091018855253,
+            "spherical_pitch": 1.707729319585742,
+            "needle_extension": 2.215696299073449e-05
+          }
+        },
+        {
+          "time": 6.781237484,
+          "joints": {
+            "base_rotation": 0.23521897652263707,
+            "first_arm_rotation": -1.1627505324802245,
+            "second_arm_rotation": 2.9770632157820835,
+            "effector_base_rotation": 0.13709749380801856,
+            "effector_extension": 0.013562474967452285,
+            "spherical_yaw": -0.263637092226263,
+            "spherical_pitch": 1.6291351835028904,
+            "needle_extension": 2.6588355588881386e-05
+          }
+        },
+        {
+          "time": 7.911443731,
+          "joints": {
+            "base_rotation": 0.26965547260974326,
+            "first_arm_rotation": -1.1408922878935954,
+            "second_arm_rotation": 2.9496570850790973,
+            "effector_base_rotation": 0.07161374277602162,
+            "effector_extension": 0.015822887462027667,
+            "spherical_yaw": -0.30599327426397355,
+            "spherical_pitch": 1.5505410474200387,
+            "needle_extension": 3.1019748187028285e-05
+          }
+        },
+        {
+          "time": 9.041649978,
+          "joints": {
+            "base_rotation": 0.30409196869684946,
+            "first_arm_rotation": -1.119034043306966,
+            "second_arm_rotation": 2.922250954376111,
+            "effector_base_rotation": 0.006129991744024732,
+            "effector_extension": 0.018083299956603047,
+            "spherical_yaw": -0.34834945630168407,
+            "spherical_pitch": 1.471946911337187,
+            "needle_extension": 3.545114078517518e-05
+          }
+        },
+        {
+          "time": 10.171856226,
+          "joints": {
+            "base_rotation": 0.33852846478395565,
+            "first_arm_rotation": -1.0971757987203368,
+            "second_arm_rotation": 2.894844823673125,
+            "effector_base_rotation": -0.05935375928797226,
+            "effector_extension": 0.020343712451178428,
+            "spherical_yaw": -0.3907056383393946,
+            "spherical_pitch": 1.3933527752543355,
+            "needle_extension": 3.9882533383322084e-05
+          }
+        },
+        {
+          "time": 11.302062473,
+          "joints": {
+            "base_rotation": 0.3729649608710618,
+            "first_arm_rotation": -1.0753175541337077,
+            "second_arm_rotation": 2.867438692970139,
+            "effector_base_rotation": -0.12483751031996915,
+            "effector_extension": 0.02260412494575381,
+            "spherical_yaw": -0.43306182037710506,
+            "spherical_pitch": 1.314758639171484,
+            "needle_extension": 4.431392598146898e-05
+          }
+        },
+        {
+          "time": 12.43226872,
+          "joints": {
+            "base_rotation": 0.407401456958168,
+            "first_arm_rotation": -1.0534593095470783,
+            "second_arm_rotation": 2.8400325622671527,
+            "effector_base_rotation": -0.19032126135196603,
+            "effector_extension": 0.02486453744032919,
+            "spherical_yaw": -0.4754180024148156,
+            "spherical_pitch": 1.2361645030886323,
+            "needle_extension": 4.8745318579615876e-05
+          }
+        },
+        {
+          "time": 13.562474967,
+          "joints": {
+            "base_rotation": 0.4418379530452741,
+            "first_arm_rotation": -1.0316010649604492,
+            "second_arm_rotation": 2.8126264315641665,
+            "effector_base_rotation": -0.2558050123839629,
+            "effector_extension": 0.02712494993490457,
+            "spherical_yaw": -0.517774184452526,
+            "spherical_pitch": 1.1575703670057809,
+            "needle_extension": 5.317671117776277e-05
+          }
+        },
+        {
+          "time": 14.692681215,
+          "joints": {
+            "base_rotation": 0.4762744491323804,
+            "first_arm_rotation": -1.00974282037382,
+            "second_arm_rotation": 2.78522030086118,
+            "effector_base_rotation": -0.3212887634159599,
+            "effector_extension": 0.029385362429479953,
+            "spherical_yaw": -0.5601303664902365,
+            "spherical_pitch": 1.0789762309229292,
+            "needle_extension": 5.7608103775909674e-05
+          }
+        },
+        {
+          "time": 15.822887462,
+          "joints": {
+            "base_rotation": 0.5107109452194865,
+            "first_arm_rotation": -0.9878845757871907,
+            "second_arm_rotation": 2.7578141701581944,
+            "effector_base_rotation": -0.3867725144479568,
+            "effector_extension": 0.031645774924055334,
+            "spherical_yaw": -0.602486548527947,
+            "spherical_pitch": 1.0003820948400777,
+            "needle_extension": 6.203949637405657e-05
+          }
+        },
+        {
+          "time": 16.953093709,
+          "joints": {
+            "base_rotation": 0.5451474413065927,
+            "first_arm_rotation": -0.9660263312005615,
+            "second_arm_rotation": 2.730408039455208,
+            "effector_base_rotation": -0.45225626547995357,
+            "effector_extension": 0.03390618741863071,
+            "spherical_yaw": -0.6448427305656576,
+            "spherical_pitch": 0.9217879587572262,
+            "needle_extension": 6.647088897220346e-05
+          }
+        },
+        {
+          "time": 18.083299957,
+          "joints": {
+            "base_rotation": 0.5795839373936988,
+            "first_arm_rotation": -0.9441680866139321,
+            "second_arm_rotation": 2.703001908752222,
+            "effector_base_rotation": -0.5177400165119506,
+            "effector_extension": 0.036166599913206095,
+            "spherical_yaw": -0.6871989126033681,
+            "spherical_pitch": 0.8431938226743745,
+            "needle_extension": 7.090228157035036e-05
+          }
+        },
+        {
+          "time": 19.213506204,
+          "joints": {
+            "base_rotation": 0.614020433480805,
+            "first_arm_rotation": -0.9223098420273029,
+            "second_arm_rotation": 2.675595778049236,
+            "effector_base_rotation": -0.5832237675439476,
+            "effector_extension": 0.03842701240778147,
+            "spherical_yaw": -0.7295550946410786,
+            "spherical_pitch": 0.7645996865915228,
+            "needle_extension": 7.533367416849726e-05
+          }
+        },
+        {
+          "time": 20.343712451,
+          "joints": {
+            "base_rotation": 0.6484569295679112,
+            "first_arm_rotation": -0.9004515974406737,
+            "second_arm_rotation": 2.64818964734625,
+            "effector_base_rotation": -0.6487075185759446,
+            "effector_extension": 0.040687424902356856,
+            "spherical_yaw": -0.7719112766787891,
+            "spherical_pitch": 0.6860055505086711,
+            "needle_extension": 7.976506676664417e-05
+          }
+        },
+        {
+          "time": 21.473918698,
+          "joints": {
+            "base_rotation": 0.6828934256550173,
+            "first_arm_rotation": -0.8785933528540444,
+            "second_arm_rotation": 2.6207835166432636,
+            "effector_base_rotation": -0.7141912696079413,
+            "effector_extension": 0.04294783739693223,
+            "spherical_yaw": -0.8142674587164995,
+            "spherical_pitch": 0.6074114144258196,
+            "needle_extension": 8.419645936479106e-05
+          }
+        },
+        {
+          "time": 22.604124946,
+          "joints": {
+            "base_rotation": 0.7173299217421235,
+            "first_arm_rotation": -0.8567351082674153,
+            "second_arm_rotation": 2.5933773859402773,
+            "effector_base_rotation": -0.7796750206399383,
+            "effector_extension": 0.04520824989150762,
+            "spherical_yaw": -0.85662364075421,
+            "spherical_pitch": 0.5288172783429681,
+            "needle_extension": 8.862785196293796e-05
+          }
+        },
+        {
+          "time": 23.734331193,
+          "joints": {
+            "base_rotation": 0.7517664178292297,
+            "first_arm_rotation": -0.834876863680786,
+            "second_arm_rotation": 2.5659712552372915,
+            "effector_base_rotation": -0.8451587716719353,
+            "effector_extension": 0.047468662386083,
+            "spherical_yaw": -0.8989798227919206,
+            "spherical_pitch": 0.4502231422601164,
+            "needle_extension": 9.305924456108486e-05
+          }
+        },
+        {
+          "time": 24.86453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 9.749063715923175e-05
+          }
+        }
+      ]
+    },
+    {
+      "name": "insertion",
+      "description": "Slowly extend needle to target",
+      "duration_sec": 5.0,
+      "extension_mm": 46.904157598234335,
+      "speed_mm_per_sec": 9.380831519646867,
+      "waypoints": [
+        {
+          "time": 24.86453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 9.749063715923175e-05
+          }
+        },
+        {
+          "time": 25.11453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.002442698517070948
+          }
+        },
+        {
+          "time": 25.36453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.004787906396982665
+          }
+        },
+        {
+          "time": 25.61453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.007133114276894382
+          }
+        },
+        {
+          "time": 25.86453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.009478322156806098
+          }
+        },
+        {
+          "time": 26.11453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.011823530036717815
+          }
+        },
+        {
+          "time": 26.36453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.014168737916629532
+          }
+        },
+        {
+          "time": 26.61453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.016513945796541245
+          }
+        },
+        {
+          "time": 26.86453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.018859153676452963
+          }
+        },
+        {
+          "time": 27.11453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.02120436155636468
+          }
+        },
+        {
+          "time": 27.36453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.023549569436276396
+          }
+        },
+        {
+          "time": 27.61453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.025894777316188115
+          }
+        },
+        {
+          "time": 27.86453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.02823998519609983
+          }
+        },
+        {
+          "time": 28.11453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.030585193076011548
+          }
+        },
+        {
+          "time": 28.36453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.03293040095592326
+          }
+        },
+        {
+          "time": 28.61453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.035275608835834985
+          }
+        },
+        {
+          "time": 28.86453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.0376208167157467
+          }
+        },
+        {
+          "time": 29.11453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.039966024595658414
+          }
+        },
+        {
+          "time": 29.36453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.042311232475570136
+          }
+        },
+        {
+          "time": 29.61453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.044656440355481844
+          }
+        },
+        {
+          "time": 29.86453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.047001648235393566
+          }
+        }
+      ]
+    },
+    {
+      "name": "retraction",
+      "description": "Retract needle back to entry point",
+      "duration_sec": 3.0,
+      "waypoints": [
+        {
+          "time": 29.86453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.047001648235393566
+          }
+        },
+        {
+          "time": 30.06453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.04387470439551128
+          }
+        },
+        {
+          "time": 30.264537439999998,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.04074776055562899
+          }
+        },
+        {
+          "time": 30.46453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.0376208167157467
+          }
+        },
+        {
+          "time": 30.66453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.03449387287586441
+          }
+        },
+        {
+          "time": 30.86453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.03136692903598212
+          }
+        },
+        {
+          "time": 31.06453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.028239985196099833
+          }
+        },
+        {
+          "time": 31.264537439999998,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.025113041356217544
+          }
+        },
+        {
+          "time": 31.46453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.021986097516335255
+          }
+        },
+        {
+          "time": 31.66453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.018859153676452967
+          }
+        },
+        {
+          "time": 31.86453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.015732209836570678
+          }
+        },
+        {
+          "time": 32.06453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.012605265996688389
+          }
+        },
+        {
+          "time": 32.26453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.0094783221568061
+          }
+        },
+        {
+          "time": 32.46453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.006351378316923811
+          }
+        },
+        {
+          "time": 32.66453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 0.0032244344770415226
+          }
+        },
+        {
+          "time": 32.86453744,
+          "joints": {
+            "base_rotation": 0.7862029139163359,
+            "first_arm_rotation": -0.8130186190941567,
+            "second_arm_rotation": 2.5385651245343053,
+            "effector_base_rotation": -0.910642522703932,
+            "effector_extension": 0.04972907488065838,
+            "spherical_yaw": -0.9413360048296311,
+            "spherical_pitch": 0.3716290061772649,
+            "needle_extension": 9.749063715923378e-05
+          }
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_duration_sec": 32.86453744,
+    "total_waypoints": 60,
+    "phases_count": 3
+  }
+}
